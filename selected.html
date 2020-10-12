@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- CSS -------->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font-awesome -->
+    <script src="https://kit.fontawesome.com/fa8731bd30.js" crossorigin="anonymous"></script>
+    <!-- Google-Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <title>Selected Order</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  nav-menu">
+      <a href="index.html"><i class="fas fa-mug-hot fa-3x"></i></a>
+      <button class="navbar-toggler nav-button" type="button" data-toggle="collapse"data-target="#navbar">
+          <div class="bg-light bar1"></div>
+          <div class="bg-light bar2"></div>
+          <div class="bg-light bar3"></div>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link m-2 menu">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link m-2 menu">About</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu">Products</a>
+          </li>
+          <li class="nav-item">
+              <a href="index.html" class="nav-link m-2 menu">Price</a>
+          </li>
+          <li class="nav-item">
+              <a href="index.html" class="nav-link m-2 menu">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+  </nav>
+  <div class="container order">
+    <h3 class="text-center my-5">Your Order</h3>
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="card coffe-card">
+             <img src="images/img2.jpg"class="img-fluid rounded"alt="">
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <h4 class="font-weight-light title-text">Espresso  With Muffin</h4>
+          <p class="spl-off">special Offer</p>
+          <p>Price: <span class="font-weight-bold">$25</span> Only</p>
+          <form>           
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Select Quantity</label>
+              <select class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </form>
+          <button class="order-btn"><a href="buy.html">Buy It Now</a></button>
+        </div>
+      </div>
+  </div>
+  <div class="container-fluid sel-cara">
+    <h3 class="py-5">Similar Coffee Items</h3>
+    <div id="carouselExampleControls" class="carousel" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <ul class="sel-cara-ul">
+            <li>
+              <img src="images/6.jpg" alt="">
+              <p>Espresso</p>
+              <p>Price:$20</p>
+            </li>
+            <li>
+              <img src="images/7.jpg" alt="">
+              <p>Espresso</p>
+              <p>Price:$20</p>
+            </li>
+            <li>
+              <img src="images/8.jpg" alt="">
+              <p>Espresso</p>
+              <p>Price:$20</p>
+            </li>
+            <li>
+              <img src="images/9.jpg" alt="">
+              <p>Espresso</p>
+              <p>Price:$20</p>
+            </li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <ul class="sel-cara-ul">
+            <li>
+              <img src="images/10.jpg" alt="">
+              <p>Espresso</p>
+              <p>Price:$20</p>
+            </li>
+            <li>
+              <img src="images/11.jpg" alt="">
+              <p>Espresso</p>
+              <p>Price:$20</p>
+            </li>
+            <li>
+              <img src="images/1.jpeg" alt="">
+              <p>Espresso</p>
+              <p>Price:$20</p>
+            </li>
+            <li>
+              <img src="images/3.jpeg" alt="">
+              <p>Espresso</p>
+              <p>Price:$20</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <footer class="place-footer">
+    <p>Need help? Check our <a href="">help pages</a> or <a href="">contact us 24x7</a></p>
+    <p><a href="">Conditions of Use</a> | Privacy Notice © 2012-2020, Coffee Shop.com, Inc. and its affiliates</p>
+
+</footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
