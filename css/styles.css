@@ -290,23 +290,27 @@ footer .top a{
 .spl-off{
     width:100px;
     padding:2px 5px;
-    background-color: yellowgreen;
-    color:white;
+    background-color: #000;
+    color:#dbc1ac;
 }
 .spl-form{
     width:100px;
     height:30px !important;
 }
+form{
+    width:100px;
+    height: auto;
+}
 .order-btn{
     width:100px;
     border:none;
     padding:4px 8px;
-    background-color: yellowgreen;
+    background-color:#000;
     border-radius: 5px;
 }
 .order-btn a{
     text-decoration: none;
-    color:white;
+    color:#dbc1ac;
 }
 .sel-cara-ul{
     list-style: none;
@@ -329,8 +333,8 @@ footer .top a{
     width:200px;
     border:none;
     padding:4px 8px;
-    background-color: yellowgreen;
-    color:white;
+    background-color: #000;
+    color:#dbc1ac;
     border-radius: 5px;
 }
 /*******payment.html *******/
@@ -379,8 +383,8 @@ footer .top a{
 }
 .con-btn-div button{
     width:180px;
-    background-color: yellowgreen;
-    color:white;
+    background-color: #000;
+    color:#dbc1ac;
     padding:4px 8px;
     margin-bottom: 10px;
     border:none;
@@ -389,14 +393,14 @@ footer .top a{
 }
 /*******placement.html *******/
 .place-data h5{
-background-color: yellowgreen;
+background-color: #000;
 }
 .place-footer{
     background-color: rgb(253, 253, 253);
     margin-top:30px;
 }
 .visit button{
-    background-color: yellowgreen;
+    background-color: #000;
     width:150px;
     border:none;
     outline-style: none;
@@ -405,7 +409,7 @@ background-color: yellowgreen;
 }
 .visit button a{
     text-decoration: none;
-    color: white;
+    color:#dbc1ac;
 }
 .place-footer p{
     font-size: 16px;
@@ -416,12 +420,12 @@ background-color: yellowgreen;
     width:300px;
 }
 .rivew-form button{
-    background-color: yellowgreen;
+    background-color: #000;
     width:150px;
     border:none;
     outline-style: none;
     border-radius: 5px;
     padding:4px 8px;
     text-decoration: none;
-    color: white;
+    color:#dbc1ac;
 }
